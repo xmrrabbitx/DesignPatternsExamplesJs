@@ -1,36 +1,3 @@
-function customer(first,second,third){
-
-
-    this.first = first;
-    this.second = second;
-    this.third = third;
-
-
-    this.order = function(){
-
-     
-
-    }
-
-}
-
-let custom = new customer("xmrrabbitx","ali","akbar");
-
-custom.order();
-
-
-let custom2 = new customer("xmrrabbitx","ali","akbar");
-
-custom2.order();
-
-
-
-
-
-
-
-
-
 function Carprototype(proto){
 
     this.proto = proto;
