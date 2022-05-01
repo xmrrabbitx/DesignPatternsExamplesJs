@@ -1,6 +1,6 @@
 
 
-var Singleton = function(){
+var Singleton = (function(){
 
 
     var instance;
@@ -24,7 +24,7 @@ var Singleton = function(){
     }
 
 
-}
+})();
 
 
 var instance1 = Singleton.getinstance();
@@ -32,3 +32,5 @@ var instance2 = Singleton.getinstance();
 
 console.log(instance1);
 console.log(instance2);
+
+
